@@ -1,0 +1,9 @@
+version: "3"
+services:
+  renovation:
+    build:
+      context: .
+    volumes:
+      - .:/home/renovation
+    container_name: xalk
+    working_dir: /home/renovation
